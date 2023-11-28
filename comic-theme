@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+  /* TODO: Notes here  */
+  <html>
+    <head>
+      <title>{block:TagPage}{Tag} | {/block:TagPage} {block:SearchPage}{lang:Search results for SearchQuery} | {/block:SearchPage}{block:PostSummary}{PostSummary} | {/block:PostSummary}{Title}</title>
+      {block:Description}
+      <meta name="description" content="{MetaDescription}" />
+      {/block:Description}
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href="{Favicon}"/>
+      <link rel="alternate" type="application/rss+xml" href="{RSS}"/>
+      <link rel="apple-touch-icon-precomposed" href="{PortraitURL-128}">
+
+      <link rel="stylesheet" href="https://static.tumblr.com/xeccbfq/9Qenv9yn8/normalize.min.css" />
+      <link rel="stylesheet" href="https://static.tumblr.com/xeccbfq/lT5nwa5y4/theme.css" />
+      
+        <style>
+        /* TODO: JS: Grid Layout */
+        /* TODO: JS: Loading message */
+        /* TODO: Tumblr: Add CSS customisation */
+    
+    </style>
+    </head>
+  <body>
+  </body>
+  </html>
